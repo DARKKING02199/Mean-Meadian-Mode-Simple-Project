@@ -6,7 +6,7 @@ while True:
     y = input("Insert Data Numbers: ").lower()
     data.append(y)
     print(data)
-    if '' or ' ' in data:
+    if '' or ' ' in data or '  ' in data:
         data.pop()
     elif y == 'mean':
         data.pop()
